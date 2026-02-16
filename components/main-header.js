@@ -2,8 +2,7 @@ import Link from "next/link"
 
 export const MainHeader = () => {
   return (
-    <div id="main-header">
-      <nav>
+    <header id="main-header">
         <ul>
           <li>
             <Link href="/">Home</Link>
@@ -12,7 +11,6 @@ export const MainHeader = () => {
             <Link href="/news">News</Link>
           </li>
         </ul>
-      </nav>
-    </div>
+    </header>
   );
 }
